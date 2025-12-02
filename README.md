@@ -23,4 +23,32 @@ and executes them against a database.
 
 ## Setup (Work in Progress)
 
-Instructions will be added as the project evolves.
+## Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/salehgondal/sql-genie.git
+cd sql-genie
+```
+
+### 2. Create and activate a virtual environment
+
+```bash 
+python -m venv .venv
+.\.venv\Scripts\Activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Add your Gemini API key
+
+Create a .env file:
+
+```bash
+GOOGLE_API_KEY=your_api_key_here
+```
